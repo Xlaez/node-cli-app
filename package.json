@@ -1,0 +1,16 @@
+{
+  "name": "customer-cli-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Utibeabasi Ekong",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^9.5.0",
+    "dotenv": "^16.0.3",
+    "inquirer": "^9.1.4",
+    "mongoose": "^6.8.3"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3"
+  }
+}
