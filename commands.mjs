@@ -1,6 +1,6 @@
-const program = require('commander');
-const inquire = require('inquirer');
-const { addCustomer, findCustomer } = require('./index');
+import { program } from 'commander';
+import inquire from 'inquirer';
+import { addCustomer, findCustomer } from './index.js';
 
 program.version('1.0.0').description('Customer CLI');
 

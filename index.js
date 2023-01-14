@@ -2,6 +2,7 @@ const { connect, default: mongoose } = require('mongoose');
 require('dotenv').config({});
 
 mongoose.Promise = global.Promise;
+mongoose.set('strictQuery', false);
 const db = connect(process.env.MONGO_URI, {
 	dbName: 'customer-cli',
 });
